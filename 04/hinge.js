@@ -1,10 +1,9 @@
-var hinge = function(a){
-	var a = number;
-	if (a <= 10){
-		a = 0;
+var hinge = function(number){
+	if (number <= 10){
+		number = 0;
 	}
-	else(a < 10){
-		a - 10;
+	else if (number > 10){
+		number = number - 10;
 	}
-	return a;
+	return number;
 }
